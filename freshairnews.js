@@ -87,7 +87,7 @@ $.getJSON(url, function(a)
             }
         }
 
-        if (linkDaImagem != null && descricao != null && autor != null && !trump ){
+        if (linkDaImagem != null && linkDaImagem.includes("https") && descricao != null && autor != null && !trump ){
         $('.card').prepend('<div class="item"><h2>' + titulo + '</h2>' +
         '<p class="publishedAt">' + dataPublicacao + '</p>' +
                 //caracter of scape: "quotes" and '+'
