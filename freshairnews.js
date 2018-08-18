@@ -93,7 +93,7 @@ $.getJSON(url, function(a)
                 //caracter of scape: "quotes" and '+'
         '<img src="' + linkDaImagem +'">' + 
         '<p>' + descricao + '</p>' +
-        '<p>' + autor + '</p>' +
+        '<p><i>' + autor + '</i></p>' +
                 //caracter of scape: "quotes" and '+'
         '<a href="'+ link +'">Read more</a></div>');}
     }
